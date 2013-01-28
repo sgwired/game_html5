@@ -225,19 +225,19 @@ function Enemy() {
 	this.drawY = randomRange(0, canvasHeight - this.height);
 	this.centerX = this.drawX + (this.width / 2);
 	this.centerY = this.drawY + (this.height / 2);
-	//this.targetX = this.centerX;
-	//this.tragetY = this.centerY;
-	//this.randomMoveTime = randomRange(4000, 10000);
+	this.targetX = this.centerX;
+	this.tragetY = this.centerY;
+	this.randomMoveTime = randomRange(4000, 10000);
 	this.speed = 1;
-	//var that = this;
-	//this.moveInterval = setInterval(function() {thatt.setTargetLocation();}, that.randomMoveTime);
+	var that = this;
+	this.moveInterval = setInterval(function() {that.setTargetLocation();}, that.randomMoveTime);
 	this.isDead = false;
 	}
 
 Enemy.prototype.update = function () {
-	//this.checkDirection();
 	this.centerX = this.drawX + (this.width / 2);
 	this.centerY = this.drawY + (this.height / 2);
+	this.checkDirection();
 };
 
 
@@ -263,6 +263,50 @@ function drawAllEnemies() {
 	}
 }
 
+Enemy.prototype.setTargetLocation = function () {
+	this.randomMoveTime = randomRange(4000, 10000);
+	var minX = this.centerX - 50,
+		maxX = this.centerX + 50,
+		minY = this.centerY - 50,
+		maxY = this.centerY + 50;
+	if (minX < 0) {
+		minX = 0;
+	}
+	if (maxX > canvasWidth){
+		maxX = canvasWidth;
+	}
+	if (minY < 0) {
+		minY = 0;
+	}
+	if (maxY > canvasHeight) {
+		maxY = canvasHeight;
+	}
+	this.targetX = randomRange(minX, maxX);
+	this.targetY = randomRange(minY, maxY);
+};
+
+Enemy.prototype.checkDirection = function () {
+	if (this.centerX < this.targetX){
+		this.drawX += this.speed;
+	} else if (this.centerX > this.targetX) {
+		this.drawX -= this.speed;
+	}
+
+	if (this.centerY < this.targetY){
+		this.drawY += this.speed;
+	} else if (this.centerY > this.targetY) {
+		this.drawY -= this.speed;
+	}
+};
+
+Enemy.prototype.die = function () {
+	var soundEffect = new Audio("audio/dying.wav");
+	soundEffect.play();
+	clearInterval(this.moveInterval);
+	this.srcX = 185;
+	this.isDead = true;
+
+};
 
 
 
