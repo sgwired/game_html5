@@ -5,8 +5,8 @@ var canvasBg = document.getElementById("canvasBg"),
 	canvasWidth = canvasBg.width,
 	canvasHeight = canvasBg.height,
 	player1 = new Player(),
-	//enemies = [],
-	//numEnemies = 5,
+	enemies = [],
+	numEnemies = 5,
 	obstacles = [],
 	isPlaying = false,
 	requestAnimFrame = 	window.requestAnimationFrame ||
@@ -26,7 +26,7 @@ function init() {
 	document.addEventListener("keydown", function(e) {checkKey(e, true);}, false);
 	document.addEventListener("keyup", function(e) {checkKey(e, false);}, false);
 	defineObstacles();
-	//initEnemies();
+	initEnemies();
 	begin();
 }
 
@@ -38,12 +38,12 @@ function begin() {
 
 function update() {
 	clearCtx(ctxEntities);
-	//updateAllEnemies();
+	updateAllEnemies();
 	player1.update();
 }
 
 function draw() {
-	//drawAllEnemies();
+	drawAllEnemies();
 	player1.draw();
 }
 
@@ -216,8 +216,52 @@ function outOfBounds(a, x, y) { //a is object then x y positions
 		newLeftX < treeLineLeft;
 }
 
+function Enemy() {
+	this.srcX = 140;
+	this.srcY = 600;
+	this.width = 45;
+	this.height = 54;
+	this.drawX = randomRange(0, canvasWidth - this.width);
+	this.drawY = randomRange(0, canvasHeight - this.height);
+	this.centerX = this.drawX + (this.width / 2);
+	this.centerY = this.drawY + (this.height / 2);
+	//this.targetX = this.centerX;
+	//this.tragetY = this.centerY;
+	//this.randomMoveTime = randomRange(4000, 10000);
+	this.speed = 1;
+	//var that = this;
+	//this.moveInterval = setInterval(function() {thatt.setTargetLocation();}, that.randomMoveTime);
+	this.isDead = false;
+	}
+
+Enemy.prototype.update = function () {
+	//this.checkDirection();
+	this.centerX = this.drawX + (this.width / 2);
+	this.centerY = this.drawY + (this.height / 2);
+};
 
 
+Enemy.prototype.draw = function () {
+	ctxEntities.drawImage(imgSprite, this.srcX, this.srcY, this.width, this.height, this.drawX, this.drawY, this.width, this.height);
+};
+
+function initEnemies() {
+	for(var i = 0; i < numEnemies; i++) {
+		enemies[enemies.length] = new Enemy();
+	}
+}
+
+function updateAllEnemies() {
+	for(var i = 0; i < enemies.length; i++) {
+		enemies[i].update();
+	}
+}
+
+function drawAllEnemies() {
+	for(var i = 0; i < enemies.length; i++) {
+		enemies[i].draw();
+	}
+}
 
 
 

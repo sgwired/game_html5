@@ -1,0 +1,598 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ph",
+				"phorum"
+			],
+			[
+				"PHORUM_a",
+				"PHORUM_ALT_DBCONFIG"
+			],
+			[
+				"botto",
+				"bottomY"
+			],
+			[
+				"o",
+				"obstacles"
+			],
+			[
+				"ob",
+				"obtacleCounter"
+			],
+			[
+				"newCen",
+				"newCenterY"
+			],
+			[
+				"new",
+				"newCenterY"
+			],
+			[
+				"newC",
+				"newCenterX"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"newDraw",
+				"newDrawY"
+			],
+			[
+				"bu",
+				"bushHeigt"
+			],
+			[
+				"r",
+				"rockDimensions"
+			],
+			[
+				"tre",
+				"treeHeight"
+			],
+			[
+				"tr",
+				"treeWidth"
+			],
+			[
+				"Obst",
+				"Obstacle"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"drw",
+				"drawX"
+			],
+			[
+				"dr",
+				"drawX"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"ne",
+				"newDrawY"
+			],
+			[
+				"d",
+				"drawX"
+			],
+			[
+				"newdr",
+				"newDrawY"
+			],
+			[
+				"obstac",
+				"obstacleCollision"
+			],
+			[
+				"s",
+				"src"
+			],
+			[
+				"newDr",
+				"newDrawX"
+			],
+			[
+				"draw",
+				"drawY"
+			],
+			[
+				"tree",
+				"treeLineTop"
+			],
+			[
+				"iss",
+				"isSpaceBar"
+			],
+			[
+				"spac",
+				"space1"
+			],
+			[
+				"i",
+				"input"
+			],
+			[
+				"p",
+				"plain"
+			],
+			[
+				"re",
+				"response"
+			],
+			[
+				"sr",
+				"srcX"
+			],
+			[
+				"ct",
+				"ctxEntities"
+			],
+			[
+				"cen",
+				"centerY"
+			],
+			[
+				"center",
+				"centerX"
+			],
+			[
+				"req",
+				"requestAnimationFrame"
+			],
+			[
+				"ctx",
+				"ctxEntities"
+			],
+			[
+				"can",
+				"canvasHeight"
+			],
+			[
+				"c",
+				"canvasWidth"
+			],
+			[
+				"ca",
+				"canvasHeight"
+			],
+			[
+				"the",
+				"the_funct"
+			],
+			[
+				"get",
+				"get_input"
+			],
+			[
+				"de",
+				"description"
+			],
+			[
+				"comm",
+				"command_name"
+			],
+			[
+				"create",
+				"create_todo"
+			],
+			[
+				"strto",
+				"strtotime"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"ccc",
+				"cccccc"
+			],
+			[
+				"bord",
+				"border-bottom"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"S",
+				"sql"
+			],
+			[
+				"dat",
+				"database"
+			],
+			[
+				"constr",
+				"__construct"
+			],
+			[
+				"poin",
+				"pointfield"
+			],
+			[
+				"stat",
+				"statusDiv"
+			],
+			[
+				"sta",
+				"statusDiv"
+			],
+			[
+				"sum",
+				"sumOfDice"
+			],
+			[
+				"po",
+				"point"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"w",
+				"WON"
+			],
+			[
+				"di",
+				"die2"
+			],
+			[
+				"die",
+				"die2field"
+			],
+			[
+				"ge",
+				"getElementByID"
+			],
+			[
+				"v",
+				"value"
+			],
+			[
+				"Ge",
+				"getElementByID"
+			],
+			[
+				"su",
+				"sumOfDice"
+			],
+			[
+				"g",
+				"getElementByID"
+			],
+			[
+				"fr",
+				"frequency2"
+			],
+			[
+				"fre",
+				"frequency1"
+			],
+			[
+				"Freq",
+				"frequency1"
+			],
+			[
+				"th",
+				"thead"
+			],
+			[
+				"num",
+				"number2"
+			],
+			[
+				"nu",
+				"number1"
+			],
+			[
+				"sec",
+				"secondNum"
+			],
+			[
+				"prom",
+				"prompt"
+			],
+			[
+				"canv",
+				"canvasEntities"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 332,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "game.js",
+			"settings":
+			{
+				"buffer_size": 5510,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/sg62/Desktop/game/game.js",
+		"/Users/sg62/Desktop/helloworld/app.yaml",
+		"/Users/sg62/Desktop/resume",
+		"/Users/sg62/Desktop/myfirst_yoursecond.py",
+		"/Users/sg62/Desktop/helloworld/helloworld.py",
+		"/Users/sg62/Desktop/game/index.html",
+		"/Users/sg62/Desktop/game/style.css",
+		"/Users/sg62/Documents/temp/ex12.txt",
+		"/Users/sg62/Desktop/game 2/game.js",
+		"/Users/sg62/Documents/code/python/todo/todo.py",
+		"/Users/sg62/Documents/code/python/todo/test_todo.py",
+		"/Users/sg62/Documents/code/python/ex2.py",
+		"/Users/sg62/Documents/code/python/ex1.py",
+		"/Applications/MAMP/htdocs/ci/application/controllers/hello.php",
+		"/Applications/MAMP/htdocs/ci/application/views/post/add.php",
+		"/Applications/MAMP/htdocs/ci/application/views/post/all.php",
+		"/Applications/MAMP/htdocs/ci/application/views/header.php",
+		"/Applications/MAMP/htdocs/ci/application/views/footer.php",
+		"/Applications/MAMP/htdocs/ci/application/controllers/post.php",
+		"/Applications/MAMP/htdocs/ci/application/models/post_model.php",
+		"/Applications/MAMP/htdocs/ci/css/main.css",
+		"/Applications/MAMP/htdocs/ci/application/controllers/welcome.php",
+		"/Applications/MAMP/htdocs/ci/application/controllers/user.php",
+		"/Applications/MAMP/htdocs/ci/application/helpers/index.html",
+		"/Applications/MAMP/htdocs/ci/application/config/database.php",
+		"/Applications/MAMP/htdocs/ci/application/controllers/index.html",
+		"/Users/sg62/Documents/code/ruby/tasks/spec/controllers/tasks_controller_spec.rb",
+		"/Users/sg62/Documents/code/ruby/tasks/db/migrate/20121213045927_create_tasks.rb",
+		"/Users/sg62/Documents/code/ruby/tasks/app/views/tasks/index.html.erb",
+		"/Users/sg62/Documents/code/ruby/tasks/app/controllers/tasks_controller.rb",
+		"/Users/sg62/Documents/code/ruby/tasks/config/routes.rb",
+		"/Users/sg62/Documents/code/ruby/tasks/spec/requests/tasks_spec.rb",
+		"/Users/sg62/Documents/code/ruby/tasks/Gemfile",
+		"/Users/sg62/Documents/code/ruby/tasks/db/development.sqlite3",
+		"/Users/sg62/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/sg62/Library/Application Support/Sublime Text 2/Packages/User/HTML.sublime-settings",
+		"/Users/sg62/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/sg62/Desktop/js.html",
+		"/Users/sg62/Desktop/table.html",
+		"/Users/sg62/Desktop/rollDice.html"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"isRig",
+			"isRightKey",
+			"checkObstacleCollide",
+			"defineObstacles",
+			"efineObstacles();",
+			"define",
+			"obsti"
+		],
+		"highlight": true,
+		"in_selection": true,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 332,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "game.js",
+					"settings":
+					{
+						"buffer_size": 5510,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 138.0,
+	"status_bar_visible": true
+}
